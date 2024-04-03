@@ -30,6 +30,8 @@ public class OriginalStandAloneTest {
 		
 		driver.get("https://rahulshettyacademy.com/client");
 		
+		System.out.println("for git");
+		
 		LandingPage landingPage = new LandingPage(driver);
 		
 		driver.findElement(By.id("userEmail")).sendKeys("mariajacobareeckal@gmail.com");
